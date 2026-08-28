@@ -61,13 +61,14 @@ agent = AgentRunner(agent_worker)
 response = agent.query(
     "Tell me about the important events in the entire paper"
 )
-response = agent.query("Give me a summary of both Self-RAG and LongLoRA")
+response = agent.query("Give me a brief summary of these documents")
 print(str(response))
 ```
 
 ### OUTPUT:
 <img width="1385" height="262" alt="image" src="https://github.com/user-attachments/assets/6e57bd1c-5ff5-4d4b-9bcc-4728c55e03a5" />
-<img width="982" height="776" alt="image" src="https://github.com/user-attachments/assets/6ee4ee62-f22d-462d-80b6-f587fadc054a" />
+<img width="955" height="811" alt="image" src="https://github.com/user-attachments/assets/07e061e3-2392-42dd-89a0-6c47f633135b" />
+
 
 
 ### RESULT:
